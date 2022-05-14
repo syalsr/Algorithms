@@ -1,0 +1,1 @@
+/usr/bin/clang++-12 -g CMakeFiles/Algorithms.dir/main.cpp.o -o Algorithms 
