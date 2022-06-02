@@ -1,3 +1,7 @@
+#include <unordered_map>
+#include <string>
+#include <vector>
+
 std::string find_lowest_cost_node(const std::vector<std::string>& checked,
     std::unordered_map<std::string, size_t>& costs)
 {
@@ -49,7 +53,7 @@ void print_path(std::unordered_map<std::string, std::string> parents)
     {
         std::cout << node;
         if (node != "Start")
-			std::cout << "->";
+			std::cout << "<-";
         node = parents[node];
     }
 }
