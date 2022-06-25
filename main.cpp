@@ -9,13 +9,9 @@
 #include "BFS.hpp"
 #include "dijkstra.hpp"
 #include "Check_Brackets_Sequence.hpp"
-
+#include "Tree.hpp"
 
 int main() {
-    std::stringstream ss;
-    ss << "([[]])]]";
-    auto d = check_brakets_sequence(ss);
-    for(int i = 0; i < d->size(); ++i)
-        std::cout << d->top(); d->pop();
+    Binary_Tree<int> tree{};
     return 0;
 }
