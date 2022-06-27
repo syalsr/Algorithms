@@ -9,4 +9,6 @@ add_executable(Algorithms
         dijkstra.hpp
         Check_Brackets_Sequence.hpp
         Tree.hpp
+        quick_sort.hpp
+        fibonacci.hpp
         )
